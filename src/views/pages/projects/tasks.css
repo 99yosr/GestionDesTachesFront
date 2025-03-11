@@ -1,0 +1,18 @@
+.task-table {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease-in-out;
+  background: white;
+  padding: 0;
+}
+
+.task-table.open {
+  max-height: 500px; /* Adjust based on your content */
+  padding: 10px;
+  border: 1px solid #ddd;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.toggle-btn {
+  margin-bottom: 10px;
+}

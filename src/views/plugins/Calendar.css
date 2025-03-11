@@ -1,0 +1,22 @@
+.event-pending {
+  background-color: #ffc107 !important; /* Warning color */
+  border-color: #ffc107 !important;
+  color: black !important;
+}
+
+.event-inProgress {
+  background-color: #17a2b8 !important; /* Info color */
+  border-color: #17a2b8 !important;
+  color: white !important;
+}
+
+.event-completed {
+  background-color: #28a745 !important; /* Success color */
+  border-color: #28a745 !important;
+  color: white !important;
+}
+
+.custom-event {
+  padding: 2px;
+  text-align: center;
+}
